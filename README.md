@@ -19,8 +19,8 @@
     <tr>
         <td>HTML/CSS</td>
         <td>QR code component</td>
-        <td><a href="https://qr-code-frontendio.netlify.app/">Live</a></td>
-        <td><a href="https://github.com/LOsioChico/frontendmentor/tree/main/qr-code-component-main">Code</a></td>
+        <td><a href="https://qr-code-frontendio.netlify.app/" rel="nofollow">Live</a></td>
+        <td><a href="https://github.com/LOsioChico/frontendmentor/tree/main/qr-code-component-main" rel="nofollow">Code</a></td>
         <td>Free</td>
     </tr>
     <tr></tr>
@@ -30,8 +30,8 @@
     <tr>
         <td>HTML/CSS</td>
         <td>Product preview card component</td>
-        <td><a href="https://gabrielle-perfume-frontendio.netlify.app/">Live</a></td>
-        <td><a href="https://github.com/LOsioChico/frontendmentor/tree/main/product-preview-card-component-main">Code</a></td>
+        <td><a href="https://gabrielle-perfume-frontendio.netlify.app/" rel="nofollow">Live</a></td>
+        <td><a href="https://github.com/LOsioChico/frontendmentor/tree/main/product-preview-card-component-main" rel="nofollow">Code</a></td>
         <td>Free</td>
     </tr>
     <tr></tr>
