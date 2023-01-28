@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - QR Code component solution
 
 This is a solution to the <a href="https://www.frontendmentor.io/solutions/qr-code-component-iklq5sstru" rel="nofollow">QR code component challenge on Frontend Mentor</a>. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
