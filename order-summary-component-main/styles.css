@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
+}
+
+html {
+    font-size: 100%;
+}
+
+article > img {
+    width: 100%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.main__content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 20.625rem;
+    border-radius: 1.25rem;
+}
+
+.content__tittle{
+    margin: 1.25rem;
+    margin-top: 2.1875rem;
+    margin-bottom: .9375rem;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+    font-style: bold;
+    font-weight: 900;
+}
+
+.content__p {
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+    margin: 1rem 2rem;
+}
+
+.main__price {
+    background-color: hsl(225, 100%, 98%);
+    display: grid;
+    grid-template-columns: 25% 40% 20%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "img plan change"
+                        "img annual change";
+    width: 16.875rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: .75rem;
+    text-align: start;
+    margin-bottom: 1.5625rem;
+}
+
+.main__price img {
+    grid-area: img;
+}
+
+.price__plan {
+    grid-area: plan;
+    margin-top: .9375rem;
+    font-size: .9375rem;
+    font-style: bold;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.price__plan--annual{
+    grid-area: annual;
+    margin-bottom: .9375rem;
+    font-size: .9375rem;
+    color: hsl(224, 23%, 55%);
+}
+
+.main__price a {
+    grid-area: change;
+    margin-left: .5rem;
+    color: hsl(245, 75%, 52%);
+    font-style: bold;
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.main__payment {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.payment__btn {
+    background-color: hsl(245, 75%, 52%);
+    border: .0625rem;
+    margin-bottom: 1.5625rem;
+    color: white;
+    text-decoration: none;
+    width: 17.5rem;
+    height: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .875rem;
+    box-shadow: 0rem .9375rem 4rem -0.9375rem hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: .875rem;
+}
+
+.payment__cancel{
+    margin-bottom: 1.875rem;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: .875rem;
+}
